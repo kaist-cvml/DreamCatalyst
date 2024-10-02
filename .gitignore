@@ -1,0 +1,12 @@
+*.pyc
+*.pt
+*.pth
+**/__pycache__/
+**/*.egg-info/
+*.ipynb_checkpoints
+*.so
+*.o
+*.swp
+*.tar
+**/outputs/
+.git
