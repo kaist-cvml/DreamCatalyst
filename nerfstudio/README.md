@@ -10,6 +10,42 @@ These codes are based on [Nerfstudio](https://docs.nerf.studio/). We follow the 
 
 <br/>
 
+## Setup
+
+First, create and activate a new virtual(conda) environment.
+
+```bash
+conda create -n dreamcatalyst python=3.9
+conda activate dreamcatalyst
+```
+
+Then, install the required packages.
+
+```bash
+pip install torch==2.1.2+cu118 torchvision==0.16.2+cu118 --extra-index-url https://download.pytorch.org/whl/cu118
+conda install -c "nvidia/label/cuda-11.8.0" cuda-toolkit
+pip install ninja git+https://github.com/NVlabs/tiny-cuda-nn/#subdirectory=bindings/torch
+pip install -e .
+```
+
+For 3D editing with DreamCatalyst, you need to install the following packages.
+
+```bash
+cd 3d_editing
+pip install -e .
+pip install numpy==1.26.4
+pip install gsplat==0.1.6
+```
+
+You should be able to see `dc` and `dc_splat` if the installation is successful in the following commands.
+
+```bash
+cd ..
+ns-train -h
+```
+
+<br/>
+
 ## RUN
 
 Assuming you are in the `nerfstudio` directory.
