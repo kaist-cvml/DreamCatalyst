@@ -98,7 +98,7 @@ python launch.py --config configs/edit-dc.yaml --train --gpu 0 \
 
 - `system.seg_prompt`: The segmentation prompt for the target object from GaussianEditor. It constrains the editing region as a mask along with the segmentation prompt.
 - `exp_root_dir`: The output directory.
-- `trainer.max_steps`: The maximum number of training steps. If you use the <u>fast mode</u>, you can set it to `1200`.
+- `trainer.max_steps`: The maximum number of training steps. If you use the <b>fast mode</b>, you can set it to `1200`.
 - `system.prompt_processor.prompt`: The target prompt for the target object.
 - `system.dds_target_prompt_processor.prompt`: The target prompt for the target object in the DDS module.
 - `system.dds_source_prompt_processor.prompt`: The source prompt for the source object in the DDS module.
@@ -151,7 +151,9 @@ You can control the balance between editability and identity preservation by adj
 The default values are set to:
 
 `system.second_guidance.chi`: 0.075
+
 `system.second_guidance.delta`: 0.05
+
 `system.second_guidance.gamma`: 0.2
 
 <br/>
