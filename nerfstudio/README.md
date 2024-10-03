@@ -155,7 +155,9 @@ You can control the balance between editability and identity preservation by adj
 The default values are set to:
 
 `pipeline.dc.chi`: 0.075
+
 `pipeline.dc.delta`: 0.2
+
 `pipeline.dc.gamma`: 0.8
 
 For further explanation of how these parameters affect the editing process, please refer to Equation (18) in the [paper](https://arxiv.org/abs/2407.11394).
