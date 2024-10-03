@@ -1,0 +1,63 @@
+--extra-index-url https://download.pytorch.org/whl/cu117
+
+omegaconf==2.3.0
+jaxtyping==0.2.19
+typeguard==4.3.0
+nerfacc==0.3.3
+pyrender==0.1.45
+git+https://github.com/NVlabs/tiny-cuda-nn/#subdirectory=bindings/torch
+diffusers==0.19.3
+transformers==4.42.4
+accelerate
+opencv-python
+tensorboard
+matplotlib
+imageio==2.35.1
+git+https://github.com/NVlabs/nvdiffrast.git
+libigl==2.5.1
+xatlas
+trimesh==4.4.9
+networkx
+pysdf
+PyMCubes==0.1.4 # PyMCubes
+wandb
+# gradio
+git+https://github.com/ashawkey/envlight.git
+torchmetrics
+
+# deepfloyd
+xformers==0.0.22
+bitsandbytes==0.38.1
+sentencepiece
+safetensors
+huggingface_hub
+
+# for zero123
+einops
+kornia==0.7.0
+taming-transformers-rom1504
+git+https://github.com/openai/CLIP.git
+
+#controlnet
+controlnet_aux==0.0.9
+
+#vis
+torch_efficient_distloss==0.1.3
+mediapy==1.2.2
+plyfile==1.0.3
+rembg==2.0.59
+git+https://github.com/ashawkey/kiuikit
+scikit-learn
+scipy==1.10.0
+viser
+ninja==1.11.1.1
+easydict==1.13
+albumentations==0.5.2
+webdataset
+git+https://github.com/luca-medeiros/lang-segment-anything.git
+
+
+#wonder3d
+nerfacc==0.3.3
+pyrender==0.1.45
+Pillow==9.4.0
