@@ -12,6 +12,14 @@ These codes are based on [Nerfstudio](https://docs.nerf.studio/). We follow the 
 
 ## Setup
 
+Assuming you are in the `nerfstudio` directory.
+
+```bash
+cd ./nerfstudio
+```
+
+<br/>
+
 First, create and activate a new virtual(conda) environment.
 
 ```bash
@@ -48,12 +56,6 @@ ns-train -h
 
 ## RUN
 
-Assuming you are in the `nerfstudio` directory.
-
-```bash
-cd ./nerfstudio
-```
-<br/>
 
 ### Initialize 3D Scenes
 
@@ -147,8 +149,9 @@ ns-train dc_splat --data ../dataset/{dataset_name} --load-dir outputs/{dataset_n
 
 You can control the balance between editability and identity preservation by adjusting the following parameters:
 
-`pipeline.dc.chi`: Controls the weight for editability.
-`pipeline.dc.delta` and `pipeline.dc.gamma`: Control the weight for identity preservation.
+`pipeline.dc.chi`: Control the weight for identity preservation.
+`pipeline.dc.delta` and `pipeline.dc.gamma`: Controls the weight for editability.
+
 The default values are set to:
 
 `pipeline.dc.chi`: 0.075
