@@ -95,7 +95,7 @@ For use with Threestudio (GaussianEditor), please follow the instructions below 
     - [Source 3DGS](https://1drv.ms/u/s!AiR9dYaccIf8gawV1taPDyVtsUMUFA?e=HgqNGC)
 - You can use the [dataset](https://1drv.ms/f/s!AtxL_EOxFeYMk3rftsoc4L8cg0VS?e=Hhbprk) provided by PDS mentioned above.
     - <b>Preprocess Dataset</b>: Convert the dataset into COLMAP format as described in the [3DGS official repository](https://github.com/graphdeco-inria/gaussian-splatting#processing-your-own-scenes).
-    - <b>Initialize 3DG</b>>: Follow the instructions for initializing 3DGS, as outlined in the [3DGS official repository](https://github.com/graphdeco-inria/gaussian-splatting#evaluation). You can find the point cloud `.ply` file. (e.g., `scene/yuseung/point_cloud/iteration_30000/point_cloud.ply`)
+    - <b>Initialize 3DGS</b>: Follow the instructions for initializing 3DGS, as outlined in the [3DGS official repository](https://github.com/graphdeco-inria/gaussian-splatting#evaluation). You can find the point cloud `.ply` file. (e.g., `scene/yuseung/point_cloud/iteration_30000/point_cloud.ply`)
 
 
 <br/>
