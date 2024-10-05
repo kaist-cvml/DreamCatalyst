@@ -88,7 +88,7 @@ This dataset includes 3D scene data from [Instruct-NeRF2NeRF](https://instruct-n
 
 <br/>
 
-For use with Threestudio (GaussianEditor), please follow the instructions below and extract the preprocessed COLMAP datasets and source 3DGS into the colmap and scene directories, respectively.
+For use with Threestudio (GaussianEditor), please follow the instructions below and extract the preprocessed COLMAP datasets and source 3DGS into the `colmap` and `scene` directories, respectively.
 
 - We provide the COLMAP and initialized 3DGS for the source scene:
     - [COLMAP](https://1drv.ms/u/s!AiR9dYaccIf8gawXADT9x7Trozy-pw?e=TS3V4l)
