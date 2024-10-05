@@ -80,22 +80,22 @@ We provide the implementation of DreamCatalyst based on the both [NerfStudio](ht
 
 ### Dataset
 
-Please download the dataset from the following link and extract it to the `dataset` directory.
+Please download the dataset from the following link and extract it into the `dataset` directory.
 
-- PDS provides image data for 3D scene. Please download the dataset [here](https://1drv.ms/f/s!AtxL_EOxFeYMk3rftsoc4L8cg0VS?e=Hhbprk). 
+- PDS provides image data for 3D scenes. You can download the dataset [here](https://1drv.ms/f/s!AtxL_EOxFeYMk3rftsoc4L8cg0VS?e=Hhbprk). 
 This dataset includes 3D scene data from [Instruct-NeRF2NeRF](https://instruct-nerf2nerf.github.io/) as a subset. 
-- You do not need to download Dreambooth checkpoints since our method does not require them.
+- Note: Dreambooth checkpoints are not required for our method, so you can skip downloading them.
 
 <br/>
 
-For using Threestudio (GaussianEditor), please follow the instruction below and extract the preprocessed COLMAP datasets and source 3DGS in the `colmap` and `scene` directory.
+For use with Threestudio (GaussianEditor), please follow the instructions below and extract the preprocessed COLMAP datasets and source 3DGS into the colmap and scene directories, respectively.
 
-- We provide the COLMAP and intialized 3DGS for source scene. 
+- We provide the COLMAP and initialized 3DGS for the source scene:
     - [COLMAP](https://1drv.ms/u/s!AiR9dYaccIf8gawXADT9x7Trozy-pw?e=TS3V4l)
-    - [Source 3DGS](https://1drv.ms/u/s!AiR9dYaccIf8gawW1taPDyVtsUMUFA?e=3Q6Z2v)
+    - [Source 3DGS](https://1drv.ms/u/s!AiR9dYaccIf8gawV1taPDyVtsUMUFA?e=HgqNGC)
 - You can use the [dataset](https://1drv.ms/f/s!AtxL_EOxFeYMk3rftsoc4L8cg0VS?e=Hhbprk) provided by PDS mentioned above.
-    - Preprocess Dataset: you can follow the instruction of converting the dataset into COLMAP as [3DGS](https://github.com/graphdeco-inria/gaussian-splatting#processing-your-own-scenes).
-    - Initialize 3DGS: please follow the instruction of initializing the 3DGS as [3DGS](https://github.com/graphdeco-inria/gaussian-splatting#evaluation). you can find the point cloud `.ply` file. (e.g., `scene/yuseung/point_cloud/iteration_30000/point_cloud.ply`)
+    - <b>Preprocess Dataset</b>: Convert the dataset into COLMAP format as described in the [3DGS official repository](https://github.com/graphdeco-inria/gaussian-splatting#processing-your-own-scenes).
+    - <b>Initialize 3DG</b>>: Follow the instructions for initializing 3DGS, as outlined in the [3DGS official repository](https://github.com/graphdeco-inria/gaussian-splatting#evaluation). You can find the point cloud `.ply` file. (e.g., `scene/yuseung/point_cloud/iteration_30000/point_cloud.ply`)
 
 
 <br/>

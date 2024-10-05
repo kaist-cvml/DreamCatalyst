@@ -1,4 +1,4 @@
-# GaussianEditor DreamCatalyst
+# GaussianEditor with DreamCatalyst
 
 <div align="center">
     <img src="../assets/examples_ge_dc.png" alt="dreamcatalyst_ge_dc_examples"/>
