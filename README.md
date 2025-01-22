@@ -15,7 +15,7 @@ Authors
 
 <h1 align="center">
 <img width="30" height="30" src="assets/icon.png" alt="DreamCatalyst icon">
-DreamCatalyst: Fast and High-Quality 3D Editing via Controlling Editability and Identity Preservation
+[ICLR 2025] DreamCatalyst: Fast and High-Quality 3D Editing via Controlling Editability and Identity Preservation
 </h1>
 <h4 align="center">
 <a href="https://scholar.google.co.kr/citations?user=i0OKV8wAAAAJ&hl=en">Jiwook Kim<sup>*</sup></a>, <a href="https://scholar.google.co.kr/citations?user=DFKGTG0AAAAJ&hl=en">Seonho Lee<sup>*</sup></a>, <a href="https://scholar.google.com/citations?user=UbZM7nQAAAAJ&hl=en">Jaeyo Shin</a>, <a href="https://scholar.google.co.kr/citations?user=uvwpFpIAAAAJ&hl=en">Jiho Choi</a>, <a href="https://scholar.google.co.kr/citations?user=KB5XZGIAAAAJ&hl=en">Hyunjung Shim</a><br>
@@ -45,6 +45,8 @@ https://github.com/user-attachments/assets/a704b4b1-4a27-445a-8cba-b27f223b824b
 <br/>
 
 ## News & Updates
+
+- [x] **[2025/01/23]** 🌟 [DreamCatalyst](https://openreview.net/forum?id=FA5ZAJlv96) has been accepted to [ICLR 2025](https://iclr.cc/Conferences/2025)!
 
 - [x] **[2024/10/04]** 🌟 Codes based on the [Threestudio](https://github.com/threestudio-project/threestudio) for our method with Gaussian Editor have been released!
 
